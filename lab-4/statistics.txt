@@ -1,0 +1,56 @@
+=== Statystyki dla implementacji ===
+
+
+Asymetryczne:
+  Średni czas oczekiwania: 421.18 ms
+  Mediana czasu oczekiwania: 401.29 ms
+  Odchylenie standardowe czasu: 235.10 ms
+  Min/Max czas oczekiwania: 92.25 / 950.80 ms
+  Średnia liczba posiłków: 7.00
+  Mediana liczby posiłków: 7.00
+  Min/Max liczba posiłków: 5.0 / 9.0
+  Całkowita liczba posiłków: 175.0
+--------------------------------------------------
+
+Naiwne:
+  Średni czas oczekiwania: 864.48 ms
+  Mediana czasu oczekiwania: 832.67 ms
+  Odchylenie standardowe czasu: 382.91 ms
+  Min/Max czas oczekiwania: 277.63 / 1631.50 ms
+  Średnia liczba posiłków: 5.44
+  Mediana liczby posiłków: 6.00
+  Min/Max liczba posiłków: 4.0 / 8.0
+  Całkowita liczba posiłków: 136.0
+--------------------------------------------------
+
+Z arbitrem:
+  Średni czas oczekiwania: 429.41 ms
+  Mediana czasu oczekiwania: 420.43 ms
+  Odchylenie standardowe czasu: 170.41 ms
+  Min/Max czas oczekiwania: 121.38 / 797.40 ms
+  Średnia liczba posiłków: 6.84
+  Mediana liczby posiłków: 7.00
+  Min/Max liczba posiłków: 5.0 / 10.0
+  Całkowita liczba posiłków: 171.0
+--------------------------------------------------
+
+Z zaglodzeniem:
+  Średni czas oczekiwania: 381.81 ms
+  Mediana czasu oczekiwania: 355.00 ms
+  Odchylenie standardowe czasu: 166.03 ms
+  Min/Max czas oczekiwania: 91.50 / 712.50 ms
+  Średnia liczba posiłków: 7.04
+  Mediana liczby posiłków: 7.00
+  Min/Max liczba posiłków: 6.0 / 9.0
+  Całkowita liczba posiłków: 176.0
+--------------------------------------------------
+
+=== Porównanie implementacji ===
+
+Najkrótszy średni czas oczekiwania: Z zaglodzeniem (381.81 ms)
+
+Najdłuższy średni czas oczekiwania: Naiwne (864.48 ms)
+
+Największa średnia liczba posiłków: Z zaglodzeniem (7.04)
+
+Najmniejsza średnia liczba posiłków: Naiwne (5.44)
